@@ -81,14 +81,8 @@ describe('Tests with backend', () => {
       .should('contain', '6')
   })
 
-  it.only('delete a new article', () => {
+  it('delete a new article', () => {
 
-    const userCredentials = {
-      "user": {
-        "email": "tester_qa_ukraine@test.com",
-        "password": "123123123"
-      }
-    }
 
     const bodyRequest = {
       "article": {
@@ -99,9 +93,7 @@ describe('Tests with backend', () => {
       }
     }
 
-    cy.request('POST', 'https://conduit.productionready.io/api/users/login', userCredentials)
-      .its('body').then(body => {
-      const token = body.user.token
+    cy.get('@token').then(token => {
 
       cy.request({
         url: 'https://conduit.productionready.io/api/articles/',
