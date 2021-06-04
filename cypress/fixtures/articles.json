@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "title": "Test Article",
+      "slug": "test-article-bi8r12",
+      "body": "Test",
+      "createdAt": "2021-06-04T05:52:56.320Z",
+      "updatedAt": "2021-06-04T05:52:56.320Z",
+      "tagList": [],
+      "description": "Topic",
+      "author": {
+        "username": "KarateAPIAutomation",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "API ",
+      "slug": "api-fuw4dz",
+      "body": "karate testing",
+      "createdAt": "2021-06-04T05:51:02.720Z",
+      "updatedAt": "2021-06-04T05:51:02.720Z",
+      "tagList": [],
+      "description": "testing",
+      "author": {
+        "username": "karateshruti",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 5
+    }
+  ],
+  "articlesCount": 500
+}
